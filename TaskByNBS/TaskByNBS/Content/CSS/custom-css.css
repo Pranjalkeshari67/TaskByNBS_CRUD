@@ -1,0 +1,234 @@
+﻿* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.card-body {
+    box-shadow: 0 4px 8px 0 rgb(28 97 219);
+    transition: 0.3s;
+}
+
+.reg-border {
+    border: 1px solid #5f6265;
+    width: 17%;
+    margin-left: 42%;
+}
+
+.login-border {
+    border: 1px solid #5f6265;
+    width: 12%;
+    margin-left: 44%;
+}
+
+.empDash-border {
+    border: 1px solid #5f6265;
+    width: 22%;
+    margin-left: 39%;
+}
+
+.adminDash-border {
+    border: 1px solid #5f6265;
+    width: 20%;
+    margin-left: 40%;
+}
+
+.form-control {
+    border-radius: 0px !important;
+    padding-left: 45px !important;
+}
+
+    .form-control:focus {
+        color: #212529;
+        background-color: #fff;
+        border-color: #ced4da;
+        outline: 0;
+        box-shadow: none;
+    }
+
+.CustomizeFile {
+    display: none !important;
+}
+
+/* just to hide input[type="file"] attribute */
+.CustomFile {
+    border: 1px solid #4285f4;
+    padding: 1rem !important;
+    border-radius: 2.2rem !important;
+    font-size: 15px !important;
+    background: #fff !important;
+    color: #4285f4 !important;
+    cursor: pointer !important;
+    transition: 0.5s all ease;
+}
+
+    /* just to customize label class (CustomFile) */
+    .CustomFile:hover {
+        border: 1px solid #fff;
+        background: #4285f4 !important;
+        color: #fff !important;
+        transition: 0.5s all ease;
+    }
+
+/* Hover property in respective class */
+
+.h3txtClass {
+    display: block;
+    background: #729de9;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px 15px;
+}
+
+/* custom radio Button */
+
+.pRadiotxt {
+    display: inline-block !important;
+    position: relative;
+    top: 35px;
+    right: 56px;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+    [type="radio"]:checked + label,
+    [type="radio"]:not(:checked) + label {
+        position: relative;
+        padding-left: 28px;
+        cursor: pointer;
+        line-height: 20px;
+        display: inline-block;
+        color: #666;
+    }
+
+        [type="radio"]:checked + label:before,
+        [type="radio"]:not(:checked) + label:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 18px;
+            height: 18px;
+            border: 1px solid #ddd;
+            border-radius: 100%;
+            background: #fff;
+        }
+
+        [type="radio"]:checked + label:after,
+        [type="radio"]:not(:checked) + label:after {
+            content: '';
+            width: 12px;
+            height: 12px;
+            background: #729de9;
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            border-radius: 100%;
+            -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        [type="radio"]:not(:checked) + label:after {
+            opacity: 0;
+            -webkit-transform: scale(0);
+            transform: scale(0);
+        }
+
+        [type="radio"]:checked + label:after {
+            opacity: 1;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+
+/* custom radio Button*/
+
+
+/* custom Submit Button*/
+.customBtn {
+    color: #4285f4;
+    background: #fff;
+    font-size: 15px !important;
+    display: block;
+    position: relative;
+    top: 10px;
+    border: 1px solid #4285f4;
+    border-radius: 0px;
+    padding: 10px 45px;
+    transition: 0.7s all ease;
+}
+
+    .customBtn:hover {
+        background: #4285f4;
+        color: #ffffff;
+        font-size: 15px !important;
+        display: block;
+        position: relative;
+        top: 10px;
+        border: 1px solid #ffffff;
+        border: none;
+        border-radius: 0px;
+        padding: 10px 45px;
+        transition: 0.7s all ease;
+    }
+.customAnchorLink {
+    text-decoration: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+/* custom Submit Button*/
+
+.fa-edit {
+    color: #2323d9;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 0px 25px;
+}
+.fa-trash-alt {
+    color: #d70a1d;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 0px 25px;
+}
+.btnAction{
+    border:none !important;
+    box-shadow:none !important;
+    outline:none !important;
+    background-color:transparent !important;
+}
+#uplodUpdateBGFile{
+    display:none;
+}
+
+.fascustomUserCSS {
+    cursor: pointer;
+    position: relative;
+    top: 37px;
+    padding: 11px;
+    right: 121px;
+    display: inline-block;
+    background: #729de9;
+    color: #fff;
+}
+.fascustomSalaryCSS {
+    cursor: pointer;
+    position: relative;
+    top: 37px;
+    padding: 11px;
+    right: 50px;
+    display: inline-block;
+    background: #729de9;
+    color: #fff;
+}
+.fascustomDOJCSS {
+    cursor: pointer;
+    position: relative;
+    top: 37px;
+    padding: 11px;
+    right: 110px;
+    display: inline-block;
+    background: #729de9;
+    color: #fff;
+}
